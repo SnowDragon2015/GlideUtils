@@ -44,7 +44,6 @@ public class RoundCornersTransform extends BitmapTransformation {
         this.radius[1] = tr;
         this.radius[2] = br;
         this.radius[3] = bl;
-
     }
 
     @Override
