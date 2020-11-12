@@ -1,7 +1,6 @@
 package com.don.glideutils;
 
 
-
 import android.graphics.Bitmap;
 import android.graphics.BitmapShader;
 import android.graphics.Canvas;
@@ -18,8 +17,10 @@ import com.bumptech.glide.util.Util;
 import java.nio.ByteBuffer;
 import java.security.MessageDigest;
 import java.util.Arrays;
+
 /**
  * FileName: RoundCornersTransform
+ *
  * @author: SnowDragon
  * Date: 2020/11/12 22:45
  * Description:
