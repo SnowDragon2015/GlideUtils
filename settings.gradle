@@ -1,0 +1,3 @@
+include ':glideUtils'
+include ':app'
+rootProject.name = "CommonUtils"
