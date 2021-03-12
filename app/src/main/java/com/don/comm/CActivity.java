@@ -19,19 +19,26 @@ import java.util.List;
  * Date: 2020/12/25 8:48
  * Description:
  */
-public class BActivity extends AppCompatActivity {
+public class CActivity extends AppCompatActivity {
     @Override
     protected void onCreate(@Nullable Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity_b);
+        setContentView(R.layout.activity_ccc);
+//
+//        TextView textView = findViewById(R.id.tv_new_add_master);
+//        textView.setOnClickListener(new View.OnClickListener() {
+//            @Override
+//            public void onClick(View v) {
+//                isAppForgroud(CActivity.this);
+//            }
+//        });
 
-        TextView textView = findViewById(R.id.tv_new_add_master);
-        textView.setOnClickListener(new View.OnClickListener() {
-            @Override
-            public void onClick(View v) {
-                isAppForgroud(BActivity.this);
-            }
-        });
+    }
+
+    @Override
+    protected void onPause() {
+        super.onPause();
+        ActivityManager am = (ActivityManager) getSystemService(Context.ACTIVITY_SERVICE);
 
     }
 

@@ -19,4 +19,11 @@
         android:text="Hello World!"
         android:textSize="33dp" />
 
+    <TextView
+        android:id="@+id/tv_start_bb"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="启动BActivity"
+        android:textSize="33dp" />
+
 </LinearLayout>

@@ -8,7 +8,7 @@
         android:id="@+id/tv_new_add_master"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="Hello World!"
+        android:text="任务CCC"
         android:textSize="33dp" />
 
 </LinearLayout>
